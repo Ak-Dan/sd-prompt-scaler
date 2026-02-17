@@ -1,5 +1,4 @@
-```markdown
-#  Llama-3.2-1B-SD-Prompter
+# Llama-3.2-1B-SD-Prompter
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-yellow)](https://huggingface.co/akanbiNAD/sd-prompt-expander-v1)
@@ -19,10 +18,8 @@ The images below demonstrate the impact of the model on generation quality. Both
 | **Input** | **Baseline Model Output** | **Fine-Tuned Model Output (Yours)** |
 | :--- | :--- | :--- |
 | **Prompt** | *"a cat"* | *"a cat by alphonse mucha, highly detailed, digital painting, trending on artstation, concept art, smooth, sharp focus, illustration, 8k"* |
-| **Result** | ![Baseline Result](C:\Users\Prince E\Documents\finetuning\images\baseline.png) | [Fine-Tuned Result](images/finetune.png) |
+| **Result** | ![Baseline Result](images\baseline.png) | ![Fine-Tuned Result](images\finetune.png) |
 | **Analysis** | Generic, photorealistic output. Lacks artistic intent. | **Complex Art Nouveau style.** The model automatically applied specific artist references, lighting, and composition tokens. |
-
-*(Note: Replace `path/to/your/...` with the actual paths to your uploaded images)*
 
 ---
 
