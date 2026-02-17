@@ -18,7 +18,7 @@ The images below demonstrate the impact of the model on generation quality. Both
 | **Input** | **Baseline Model Output** | **Fine-Tuned Model Output (Yours)** |
 | :--- | :--- | :--- |
 | **Prompt** | *"a cat"* | *"a cat by alphonse mucha, highly detailed, digital painting, trending on artstation, concept art, smooth, sharp focus, illustration, 8k"* |
-| **Result** | ![Baseline Result](images\baseline.png) | ![Fine-Tuned Result](images\finetune.png) |
+| **Result** | ![Baseline Result](images/baseline.png) | ![Fine-Tuned Result](images/finetune.png) |
 | **Analysis** | Generic, photorealistic output. Lacks artistic intent. | **Complex Art Nouveau style.** The model automatically applied specific artist references, lighting, and composition tokens. |
 
 ---
