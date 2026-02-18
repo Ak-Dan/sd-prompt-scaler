@@ -85,7 +85,6 @@ model = AutoModelForCausalLM.from_pretrained(
 tokenizer = AutoTokenizer.from_pretrained(base_model_name)
 
 # 2. Load Fine-Tuned Adapter
-# Replace with your local path or Hugging Face Repo ID
 adapter_path = "akanbiNAD/sd-prompt-expander-v1" 
 model = PeftModel.from_pretrained(model, adapter_path)
 model.eval()
@@ -120,8 +119,10 @@ print(expand_prompt("a futuristic city"))
 * **Hyperparameters:**
 * Epochs: 1
 * Learning Rate: 2e-4
-* LoRA Rank: 64
-* LoRA Alpha: 16
+* LoRA Rank: 16
+* LoRA Alpha: 32
+
+link to the W&B Project: https://wandb.ai/akanbidaniel19-nigerian-ports-authority/sd-prompt-expander/workspace?nw=nwuserakanbidaniel19
 
 
 
